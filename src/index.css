@@ -2,9 +2,7 @@ h1 {
   font-family: 'Parisienne', sans-serif;
 }
 
-body, html {
-  height: 100%;
-}
+
 
 .navcolor {
   background-color: #FFCCCC;
@@ -56,12 +54,53 @@ body, html {
   position: relative;
   top: 0;
   left: 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 .bootstrapCarousel {
   position: absolute;
   top: 65%;
   left: 32%;
+}
+
+.mediaLogo {
+  margin-left: 880px;
+}
+
+
+.hairForm {
+  display: flex;
+  justify-content: center;
+}
+
+.custForm {
+  margin-top: 3%;
+  width: 70%;
+}
+
+.uploaderPosition {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.consultHeading {
+  margin-top: 10%;
+
+}
+
+.indentQ {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.indentA {
+  margin-left: 50px;
+  font-style: italic;
+}
+
+.faqInfo {
+  display: flex;
+  justify-content: center;
 }
 

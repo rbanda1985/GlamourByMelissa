@@ -30,6 +30,9 @@ class BootstrapCarousel extends React.Component {
                                 <Carousel.Item>
                                     <img className='d-block w-100' src={pic3} alt='Fourth Slide' />
                                 </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className='d-block w-100' src={pic4} alt='Fifth Slide' />
+                                </Carousel.Item>
                             </Carousel>
                         </div>
                     </div>
