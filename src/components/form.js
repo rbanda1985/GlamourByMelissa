@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-router-dom';
-import { Form, Button, FormGroup, FormControl, ControlLabel } from "react-bootstrap";
+import { Form, Button } from "react-bootstrap";
 import Uploader from '../components/imageUpload';
 
 class HairForm extends React.Component {
@@ -27,19 +26,19 @@ class HairForm extends React.Component {
             <div className='custForm d-flex justify-content-start'>
                 <Form>
                     <Form.Group controlId='formBasicFirstName'>
-                        <Form.Control type='text' placeholder='First Name' name='firstName' value={this.state.firstName} onChange={this.handleOnChange} />
+                        <Form.Control type='text' placeholder='First Name' name='firstName' required value={this.state.firstName} onChange={this.handleOnChange} />
                     </Form.Group>
                     <Form.Group controlId='formBasicLastName'>
-                        <Form.Control type='text' placeholder='Last Name' name='lastName' value={this.state.lastName} onChange={this.handleOnChange} />
+                        <Form.Control type='text' placeholder='Last Name' name='lastName' required value={this.state.lastName} onChange={this.handleOnChange} />
                     </Form.Group>
                     <Form.Group controlId='formBasicEmail'>
-                        <Form.Control type='email' placeholder='Email' name='email' value={this.state.email} onChange={this.handleOnChange} />
+                        <Form.Control type='email' placeholder='Email' name='email' required value={this.state.email} onChange={this.handleOnChange} />
                     </Form.Group>
                     <Form.Group controlId='formBasicPhoneNumber'>
-                        <Form.Control type='number' placeholder='Phone Number' name='phoneNumber' value={this.state.phoneNumber} onChange={this.handleOnChange} />
+                        <Form.Control type='number' placeholder='Phone Number' name='phoneNumber' required value={this.state.phoneNumber} onChange={this.handleOnChange} />
                     </Form.Group>
                     <Form.Group controlId='formBasicInsta'>
-                        <Form.Control type='text' placeholder='Instagram' name='instagram' value={this.state.instagram} onChange={this.handleOnChange} />
+                        <Form.Control type='text' placeholder='Instagram' name='instagram' required value={this.state.instagram} onChange={this.handleOnChange} />
                     </Form.Group>
                     <Form.Group controlId='formBasicFaceBook'>
                         <Form.Control type='text' placeholder='Facebook' name='facebook' value={this.state.facebook} onChange={this.handleOnChange}/>

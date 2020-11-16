@@ -2,6 +2,7 @@ import React from 'react';
 import images from '../images/glambymelissalogo.png';
 import salon from '../images/salonPic.JPG';
 import BootstrapCarousel from '../components/bootstrapCarousal';
+import BackgroundImage from '../components/backgroundImage';
 
 
 
@@ -10,8 +11,10 @@ const Home = () => (
         <div className="imageLogo">
         <img className="logo" alt='Glamour By Melissa Logo' src={images}/>
         </div>
-        <div className="d-flex justify-content-center">
-            <img className="salonFront" alt='Salon' src={salon}/>
+        <div>
+            <BackgroundImage>
+
+            </BackgroundImage>
         </div>
         <div className='bootstrapCarousel'>
             <BootstrapCarousel>
