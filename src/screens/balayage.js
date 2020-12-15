@@ -2,6 +2,7 @@ import React from 'react';
 import images from '../images/glambymelissalogo.png';
 import { Link } from 'react-router-dom';
 import balayagePic from '../images/balayageClass.JPG';
+import { Button } from 'react-bootstrap';
 
 
 const Balayage = () => (
@@ -23,6 +24,7 @@ const Balayage = () => (
         <p>Touch ups are only needed every 3-6+ months, depending on clients hair goals and texture of hair.</p>
         <p>Price: $650</p>
         <p style={{marginLeft: '450px'}}>Time: 5-6 hours.</p>
+        <Button style={{marginLeft: '450px'}} variant='dark'><a href='https://checkout.square.site/buy/GHTWDL6EN4Z7NM5EYY4AWVSB' target='_blank' rel='noopener noreferrer'>Sign Up</a></Button>
     </div>
     </div>
     </div>

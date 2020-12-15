@@ -7,8 +7,8 @@ const Card3 = () => (
   <img className="card-img-top3" src={cardImage3} alt="Card"/>
   <div className="card-body">
     <h5 className="card-title">Photography Class</h5>
-    <p className="card-text">$500</p>
-    <Link to='/photography' target='_blank' className="btn btn-primary">Click for details</Link>
+    <p className="card-text">$300</p>
+    <Link to='/photography' target='_blank' className="btn btn-dark">Click for details</Link>
   </div>
   </div>
 )

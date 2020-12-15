@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import ImageUploader from 'react-images-upload';
  
 class Uploader extends React.Component {
@@ -21,11 +21,11 @@ class Uploader extends React.Component {
                 withIcon={true}
                 buttonText='Choose images'
                 onChange={this.onDrop}
-                imgExtension={['.jpg', '.gif', '.png', '.gif']}
+                imgExtension={['.jpeg', 'JPG', 'jpg', '.gif', '.png', '.gif']}
                 maxFileSize={5242880}
             />
         );
     }
 }
 
-export default Uploader;
+export default Uploader; */

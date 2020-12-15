@@ -19,10 +19,10 @@ const Education = () => (
         <div className='hairClasses'>
             <div className='classType'><p>There will be 4 seperate classes for you to choose from.</p></div>
             <ul>
-                <li className='d-flex justify-content-start' style={{marginLeft:'100px'}}>-Business Class(Beginners)</li>
-                <li className='d-flex justify-content-start' style={{marginLeft:'100px'}}>-Balayage Class(Intermediate)</li>
-                <li className='d-flex justify-content-start' style={{marginLeft:'100px'}}>-Photography Class(For anyone)</li>
-                <li className='d-flex justify-content-start' style={{marginLeft:'100px'}}>-Extension Class(Intermediate</li>
+                <li className='d-flex justify-content-start' style={{marginLeft:'150px'}}>-Business Class(Beginners)</li>
+                <li className='d-flex justify-content-start' style={{marginLeft:'150px'}}>-Balayage Class(Intermediate)</li>
+                <li className='d-flex justify-content-start' style={{marginLeft:'150px'}}>-Photography Class(For anyone)</li>
+                <li className='d-flex justify-content-start' style={{marginLeft:'150px'}}>-Extension Class(Intermediate</li>
             </ul>
         </div>
         

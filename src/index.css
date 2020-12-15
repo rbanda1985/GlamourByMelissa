@@ -1,8 +1,29 @@
 
 
 h1 {
-  font-family: 'Alex_Brush', sans-serif;
+  font-family: 'Allura', cursive, serif;
 }
+
+h3 {
+  font-family: 'Allura', cursive, serif;
+}
+
+p {
+  font-family: 'Forum', cursive, serif;
+}
+
+li {
+  font-family: 'Forum', cursive, serif;
+}
+
+h5 {
+  font-family: 'Forum', cursive, serif;
+}
+
+.formDisclaimer {
+  font-family: 'Forum', cursive, serif;
+}
+
 
 .mainFaq {
   margin: 50px;
@@ -95,8 +116,7 @@ h1 {
 }
 
 .consultHeading {
-  margin-top: 300px;
-
+  margin-top: 150px;
 }
 
 .indentQ {
@@ -188,7 +208,7 @@ h1 {
 }
 
 .classType {
-  margin-left: 60px;
+  margin-left: 80px;
 }
 
 .educateHeader {
@@ -304,13 +324,12 @@ span {
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Antic_Slab', sans-serif;
 }
 
 
@@ -323,4 +342,30 @@ span {
   align-items: center;
   justify-content: center;
   font-size: 3rem;
+}
+
+#servicesCaption {
+  margin-top: 300px;
+}
+
+.photographyPic {
+  width: 540px;
+  height: 600px;
+  float: left;
+  margin-left: 150px;
+  margin-right: 70px;
+  border: solid pink 25px;
+}
+
+.photoClassPic {
+  margin-top: 150px;
+}
+
+.salonBusinessPic {
+  width: 500px;
+  height: 600px;
+  border: solid pink 25px;
+  float: left;
+  margin-left: 150px;
+  margin-right: 50px;
 }

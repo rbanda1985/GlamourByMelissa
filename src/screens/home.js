@@ -1,6 +1,5 @@
 import React from 'react';
 import images from '../images/glambymelissalogo.png';
-import salon from '../images/salonPic.JPG';
 import BootstrapCarousel from '../components/bootstrapCarousal';
 import BackgroundImage from '../components/backgroundImage';
 
