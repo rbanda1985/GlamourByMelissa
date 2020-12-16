@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import pic from '../images/pic.JPG';
 import pic1 from '../images/pic1.JPG';
 import pic2 from '../images/pic2.JPG';
 import pic3 from '../images/pic3.JPG';
 import pic4 from '../images/pic4.JPG';
+import pic5 from '../images/pic5.JPG';
 
 class BootstrapCarousel extends React.Component {
     render () {
@@ -16,8 +17,8 @@ class BootstrapCarousel extends React.Component {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-7'>
-                            <Carousel>
+                        <div className='col-8'>
+                            <Carousel className='carouselEdit'>
                                 <Carousel.Item>
                                     <img className='d-block w-100' src={pic} alt='First Slide' />
                                 </Carousel.Item>
@@ -29,6 +30,12 @@ class BootstrapCarousel extends React.Component {
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img className='d-block w-100' src={pic3} alt='Fourth Slide' />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className='d-block w-100' src={pic4} alt='Fifth Slide' />
+                                </Carousel.Item>
+                                <Carousel.Item>
+                                    <img className='d-block w-100' src={pic5} alt='Sixth Slide' />
                                 </Carousel.Item>
                             </Carousel>
                         </div>
